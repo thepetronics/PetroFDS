@@ -1,0 +1,15 @@
+::-moz-selection {
+    background: #71a866;
+}
+::selection {
+    background: #71a866;
+}
+.section-2,.footer-social li a,a.button-radius:hover,.box-icon > div,a.dishes-order,.dishes-slider .bx-controls-direction a,.menu-icon,.check-menu a,.event:hover .event-img:before,a.event-single:hover,.callout-a,.pagination a,.subscribe input[type="submit"],.form-message input,.contact-social li a,.event-details a,.pricing-footer a:hover,.pricing-tables-2 .pricing-header,.pricing-tables-2 .pricing-footer,.navigation li ul li a,.accordion-title.active,.accordion-inner.active,.progressbar-percent,.clients .bx-controls-direction a:hover,.slide-a a,.slideshow-3 .tparrows:hover,.single-event-slider .bx-controls-direction a {
+	background-color: #71a866;
+}
+.navigation > ul > li > a:hover,.footer-widget > h6,.footer-widget-2 .tweet_list .tweet_time a,.footer-widget-2 .tweet_list a:hover,.breadcrumbs h1,.dishes-content h3 a:hover,.menu-content h3,.menu-content h3 a,.customers-content,.go-up:hover,.callout-inner h3,.header-half-1,.header-half-2 span,.subscribe input[type="text"],.subscribe-input i,.form-style input[type="text"],.form-style input[type="email"],.form-style textarea,.contact-information li,.single-share-title,.event-details ul li,.pricing-tables-2 .pricing-content ul li strong,blockquote:before,.dropcap-3,.navigation > ul > li:hover > a,.mega-menu-warp .box-icon h3 a,.navigation > ul > li.active-mega > a,.slide-h2 h2,.navigation_mobile > ul a:hover {
+	color: #71a866;
+}
+.pricing-content ul {
+	border-bottom-color: #71a866;
+}

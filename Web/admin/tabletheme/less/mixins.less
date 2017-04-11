@@ -1,0 +1,84 @@
+@spriteGrid: 20px;
+@spriteBackgroundSize: 60px 140px;
+
+.bevelEmboss(@ol:0.2, @od:0.2) {
+	box-shadow: inset 1px 1px 1px rgba(255, 255, 255, @ol), inset -1px -1px 1px rgba(0, 0, 0, @od);
+	-moz-box-shadow: inset 1px 1px 1px rgba(255, 255, 255, @ol), inset -1px -1px 1px rgba(0, 0, 0, @od);
+	-webkit-box-shadow: inset 1px 1px 1px rgba(255, 255, 255, @ol), inset -1px -1px 1px rgba(0, 0, 0, @od);
+}
+
+.rounded (@a:0, @b:0, @c:0, @d:0)
+{
+	-webkit-border-radius: @a @b @c @d;
+	-moz-border-radius: @a @b @c @d;
+	border-radius: @a @b @c @d;
+}
+.backgroundSize (@bg:auto)
+{
+	-moz-background-size:@bg;
+	-ie-background-size:@bg;
+	-o-background-size:@bg;
+	-webkit-background-size:@bg;
+	background-size:@bg;
+}
+.sprite (@x, @y)
+{
+	.spriteFile(sprite1x);
+	background-position: -(@x*@spriteGrid) -(@y*@spriteGrid);
+	.backgroundSize(@spriteBackgroundSize);
+}
+.spriteFile (@file, @path:"")
+{
+	background-image: url("../@{path}images/@{file}.png");
+}
+.spriteHelper(@image, @x, @y, @spriteX, @spriteY)
+{
+   background: url("img/@{image}.png") no-repeat;
+   background-position: -(@x*@spriteX) -(@y*@spriteY);
+}
+.hideText
+{
+   text-indent: -999em;
+   letter-spacing: -999em;
+   overflow: hidden;
+}
+.spriteReplace(@x, @y) 
+{
+   .sprite(@x, @y);
+   .hideText;
+}
+.spriteReplace (@x, @y, @width, @height) 
+{
+   .sprite(@x, @y);
+   .hideText;
+   width: @width;
+   height: @height;
+}
+.spriteInline(@x, @y)
+{
+   .sprite(@x, @y);
+   display: inline-block;
+   content: "";
+}
+.spriteInline(@x, @y, @width, @height)
+{
+   .sprite(@x, @y);
+   display: inline-block;
+   content: "";
+   width: @width;
+   height: @height;
+}
+.spritePadded(@x, @y)
+{
+   .sprite(@x, @y);
+   position: absolute;
+   content: "";
+}
+.spritePadded(@x, @y, @width, @height)
+{
+   .sprite(@x, @y);
+   position: absolute;
+   content: "";
+   width: @width;
+   height: @height;
+}

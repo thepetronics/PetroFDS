@@ -1,0 +1,31 @@
+
+/*
+ * Table wrapper
+ */
+.dataTables_wrapper {
+	position: relative;
+	clear: both;
+	*zoom: 1;
+	
+}
+
+
+/*
+ * Page length menu
+ */
+.dataTables_length {
+	float: left;
+	
+}
+
+
+/*
+ * Filter
+ */
+.dataTables_filter {
+	float: right;
+	text-align: right;
+	margin-right:20px;
+}
+
+

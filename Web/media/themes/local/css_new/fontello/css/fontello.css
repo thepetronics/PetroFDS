@@ -1,0 +1,159 @@
+@font-face {
+  font-family: 'fontello';
+  src: url('../font/fontello.eot?70993252');
+  src: url('../font/fontello.eot?70993252#iefix') format('embedded-opentype'),
+       url('../font/fontello.woff?70993252') format('woff'),
+       url('../font/fontello.ttf?70993252') format('truetype'),
+       url('../font/fontellodfd5.svg?70993252#fontello') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+/* Chrome hack: SVG is rendered more smooth in Windozze. 100% magic, uncomment if you need it. */
+/* Note, that will break hinting! In other OS-es font will be not as sharp as it could be */
+/*
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: 'fontello';
+    src: url('../font/fontello.svg?70993252#fontello') format('svg');
+  }
+}
+*/
+ 
+ [class^="social_icon-"]:before, [class*=" social_icon-"]:before {
+  font-family: "fontello";
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+ 
+  display: inline-block;
+  text-decoration: inherit;
+  width: auto;
+  height: auto;
+  /*width: 1em;
+  margin-right: .2em;*/
+  text-align: center;
+  /* opacity: .8; */
+ 
+  /* For safety - reset parent styles, that can break glyph codes*/
+  font-variant: normal;
+  text-transform: none;
+     
+  /* fix buttons height, for twitter bootstrap */
+  line-height: normal;
+ 
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed */
+  /*margin-left: .2em;*/
+ 
+  /* you can be more comfortable with increased icons size */
+  /* font-size: 120%; */
+ 
+  /* Uncomment for 3D effect */
+  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
+}
+ 
+.social_icon-duckduckgo:before { content: '\e800'; } 
+.social_icon-aim:before { content: '\e801'; } 
+.social_icon-delicious:before { content: '\e802'; } 
+.social_icon-paypal:before { content: '\e803'; }
+.social_icon-flattr:before { content: '\e804'; } 
+.social_icon-android:before { content: '\e805'; } 
+.social_icon-eventful:before { content: '\e806'; } 
+.social_icon-smashmag:before { content: '\e807'; } 
+.social_icon-gplus:before { content: '\e808'; }
+.social_icon-wikipedia:before { content: '\e809'; } 
+.social_icon-lanyrd:before { content: '\e80a'; } 
+.social_icon-calendar:before { content: '\e80b'; } 
+.social_icon-stumbleupon:before { content: '\e80c'; } 
+.social_icon-fivehundredpx:before { content: '\e80d'; } 
+.social_icon-pinterest:before { content: '\e80e'; } 
+.social_icon-bitcoin:before { content: '\e80f'; } 
+.social_icon-w3c:before { content: '\e810'; }
+.social_icon-foursquare:before { content: '\e811'; } 
+.social_icon-html5:before { content: '\e812'; } 
+.social_icon-ie:before { content: '\e813'; } 
+.social_icon-call:before { content: '\e814'; } 
+.social_icon-grooveshark:before { content: '\e815'; } 
+.social_icon-ninetyninedesigns:before { content: '\e816'; } 
+.social_icon-forrst:before { content: '\e817'; } 
+.social_icon-digg:before { content: '\e818'; } 
+.social_icon-spotify:before { content: '\e819'; } 
+.social_icon-reddit:before { content: '\e81a'; } 
+.social_icon-guest:before { content: '\e81b'; } 
+.social_icon-gowalla:before { content: '\e81c'; } 
+.social_icon-appstore:before { content: '\e81d'; } 
+.social_icon-blogger:before { content: '\e81e'; } 
+.social_icon-cc:before { content: '\e81f'; } 
+.social_icon-dribbble:before { content: '\e820'; } 
+.social_icon-evernote:before { content: '\e821'; } 
+.social_icon-flickr:before { content: '\e822'; } 
+.social_icon-google:before { content: '\e823'; } 
+.social_icon-viadeo:before { content: '\e824'; } 
+.social_icon-instapaper:before { content: '\e825'; } 
+.social_icon-weibo:before { content: '\e826'; }
+.social_icon-klout:before { content: '\e827'; } 
+.social_icon-linkedin:before { content: '\e828'; } 
+.social_icon-meetup:before { content: '\e829'; } 
+.social_icon-vk:before { content: '\e82a'; } 
+.social_icon-plancast:before { content: '\e82b'; } 
+.social_icon-disqus:before { content: '\e82c'; }
+.social_icon-rss:before { content: '\e82d'; } 
+.social_icon-skype:before { content: '\e82e'; } 
+.social_icon-twitter:before { content: '\e82f'; } 
+.social_icon-youtube:before { content: '\e830'; } 
+.social_icon-vimeo:before { content: '\e831'; } 
+.social_icon-windows:before { content: '\e832'; } 
+.social_icon-xing:before { content: '\e833'; } 
+.social_icon-yahoo:before { content: '\e834'; } 
+.social_icon-chrome:before { content: '\e835'; } 
+.social_icon-email:before { content: '\e836'; } 
+.social_icon-macstore:before { content: '\e837'; } 
+.social_icon-myspace:before { content: '\e838'; } 
+.social_icon-podcast:before { content: '\e839'; } 
+.social_icon-amazon:before { content: '\e83a'; } 
+.social_icon-steam:before { content: '\e83b'; } 
+.social_icon-cloudapp:before { content: '\e83c'; } 
+.social_icon-dropbox:before { content: '\e83d'; } 
+.social_icon-ebay:before { content: '\e83e'; } 
+.social_icon-facebook:before { content: '\e83f'; } 
+.social_icon-github:before { content: '\e840'; } 
+.social_icon-googleplay:before { content: '\e842'; } 
+.social_icon-itunes:before { content: '\e843'; } 
+.social_icon-plurk:before { content: '\e844'; } 
+.social_icon-songkick:before { content: '\e845'; } 
+.social_icon-lastfm:before { content: '\e846'; } 
+.social_icon-gmail:before { content: '\e847'; } 
+.social_icon-pinboard:before { content: '\e848'; }
+.social_icon-openid:before { content: '\e849'; } 
+.social_icon-quora:before { content: '\e84a'; } 
+.social_icon-soundcloud:before { content: '\e84b'; } 
+.social_icon-tumblr:before { content: '\e84c'; } 
+.social_icon-eventasaurus:before { content: '\e84d'; } 
+.social_icon-wordpress:before { content: '\e84e'; } 
+.social_icon-yelp:before { content: '\e84f'; } 
+.social_icon-intensedebate:before { content: '\e850'; } 
+.social_icon-eventbrite:before { content: '\e851'; } 
+.social_icon-scribd:before { content: '\e852'; } 
+.social_icon-posterous:before { content: '\e853'; } 
+.social_icon-stripe:before { content: '\e854'; } 
+.social_icon-opentable:before { content: '\e855'; } 
+.social_icon-cart:before { content: '\e856'; } 
+.social_icon-print:before { content: '\e857'; } 
+.social_icon-angellist:before { content: '\e858'; } 
+.social_icon-instagram:before { content: '\e859'; } 
+.social_icon-dwolla:before { content: '\e85a'; } 
+.social_icon-appnet:before { content: '\e85b'; } 
+.social_icon-statusnet:before { content: '\e85c'; } 
+.social_icon-acrobat:before { content: '\e85d'; }
+.social_icon-drupal:before { content: '\e85e'; } 
+.social_icon-buffer:before { content: '\e85f'; } 
+.social_icon-pocket:before { content: '\e860'; } 
+.social_icon-github-circled:before { content: '\e841'; } 
+.social_icon-bitbucket:before { content: '\e861'; } 
+.social_icon-lego:before { content: '\e862'; } 
+.social_icon-login:before { content: '\e863'; } 
+.social_icon-stackoverflow:before { content: '\e864'; }
+.social_icon-hackernews:before { content: '\e865'; }
+.social_icon-lkdto:before { content: '\e866'; } 
+.social_icon-deviantart:before { content: '\e867'; } 
+.social_icon-behance:before { content: '\e868'; } 

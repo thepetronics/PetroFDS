@@ -1,0 +1,6 @@
+RewriteEngine On
+
+#php_value max_input_time 120
+
+# Resolve .php file for extensionless php urls
+RewriteRule ^([^/.]+)$ $1.php [L]

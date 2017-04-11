@@ -1,0 +1,4 @@
+RewriteEngine On
+
+# Resolve .php file for extensionless php urls
+RewriteRule ^([^/.]+)$ $1.php [L]

@@ -1,0 +1,99 @@
+ul#css3menu1 {
+	list-style: none; margin: 0px; padding: 0px;
+}
+ul#css3menu1 ul {
+	list-style: none; margin: 0px; padding: 0px;
+}
+ul#css3menu1 {
+	width:99.8%; border-width: 0px; border-style: solid; border-radius: 5px; background-color: rgb(52, 180, 62); -moz-border-radius: 5px; -webkit-border-radius: 5px;
+}
+ul#css3menu1 .submenu {
+	border-width: 0px; border-style: solid; border-radius: 5px; background-color: rgb(31, 31, 31); -moz-border-radius: 5px; -webkit-border-radius: 5px;
+}
+ul#css3menu1 .submenu {
+	padding: 0px 3px 3px; border-radius: 0px 5px 5px; left: 0px; top: 100%; float: left; visibility: hidden; filter: alpha(opacity=80); position: absolute; opacity: 0; background-color: rgb(42, 42, 42); -moz-border-radius: 0 5px 5px 5px; -webkit-border-radius: 0; -moz-transition: all 0.5s; -webkit-transition: opacity 0.5s; -o-transition: opacity 0.5s; -webkit-border-top-right-radius: 5px; -webkit-border-bottom-right-radius: 5px; -webkit-border-bottom-left-radius: 5px;
+}
+ul#css3menu1 li:hover > .submenu {
+	visibility: visible; opacity: 1;
+}
+ul#css3menu1 li {
+	font-size: 0px; float: left; display: block; white-space: nowrap; position: relative;
+}
+ul#css3menu1 li:hover {
+	z-index: 1;
+}
+ul#css3menu1 ul .submenu {
+	border: 1px solid rgb(67, 67, 67); left: 100%; top: 0px; position: absolute;
+}
+ul#css3menu1 > li:hover > .submenu {
+	opacity: 0.8;
+}
+ul#css3menu1 {
+	padding: 2px 2px 2px 2px; font-size: 0px; display: inline-block; position: relative; z-index: 999; zoom: 1;
+}
+ul#css3menu1 .column {
+	float: left;
+}
+* html ul#css3menu1 li a {
+	display: inline-block;
+}
+ul#css3menu1 > li {
+	margin: 0px 0px 0px 6px;
+}
+ul#css3menu1 ul > li {
+	margin: 6px 0px 0px;
+}
+ul#css3menu1 a:active {
+	outline-style: none;
+}
+ul#css3menu1 a:focus {
+	outline-style: none;
+}
+ul#css3menu1 a {
+	border-width: 0px; font: 14px/normal Lucida Sans Unicode, sans-serif; padding: 7px 14px; text-align: left; color: rgb(255, 255, 255); text-decoration: none; vertical-align: middle; display: block; cursor: pointer; font-size-adjust: none; font-stretch: normal; background-repeat: repeat; background-color: transparent;
+}
+ul#css3menu1 ul li {
+	margin: 3px 0px 0px; float: none;
+}
+ul#css3menu1 ul a {
+	font: 12px/normal Lucida Sans Unicode, sans-serif; padding: 5px; border-radius: 5px; text-align: left; color: rgb(192, 192, 186); text-decoration: none; font-size-adjust: none; font-stretch: normal; background-color: rgb(42, 42, 42); -moz-border-radius: 5px; -webkit-border-radius: 5px; -moz-transition: all 0.5s; -webkit-transition: all 0.5s; -o-transition: all 0.5s;
+}
+ul#css3menu1 li:hover > a {
+	color: rgb(255, 255, 255); text-decoration: none; background-color: rgb(236, 66, 25);
+}
+ul#css3menu1 li a.pressed {
+	color: rgb(255, 255, 255); text-decoration: none; background-color: rgb(42, 42, 42);
+}
+ul#css3menu1 img {
+	border: currentColor; margin-right: 7px; vertical-align: middle;
+}
+ul#css3menu1 span {
+	background-position: right; overflow: visible; padding-right: 0px; display: block; background-repeat: no-repeat;
+}
+ul#css3menu1 ul span {
+	padding-right: 9px; background-image: url("arrowsub.png");
+}
+ul#css3menu1 ul li:hover > a {
+	color: rgb(255, 255, 255); text-decoration: none; background-color: rgb(82, 82, 82);
+}
+ul#css3menu1 ul li a.pressed {
+	color: rgb(255, 255, 255); text-decoration: none; background-color: rgb(82, 82, 82);
+}
+ul#css3menu1 li.topmenu > a {
+	border-radius: 5px; border: 1px solid transparent; opacity: 0.8; -moz-border-radius: 5px; -webkit-border-radius: 5px; -moz-transition: all 0.5s; -webkit-transition: all 0.5s; -o-transition: all 0.5s; 
+}
+ul#css3menu1 li.topmenu:hover > a {
+	border-style: solid; border-color: rgb(67, 67, 67);
+}
+ul#css3menu1 li.topmenu a.pressed {
+	border-style: solid; border-color: rgb(67, 67, 67);
+}
+ul#css3menu1 li.toproot > a {
+	border-width: 1px 1px 0px; border-style: solid; border-color: transparent; border-radius: 5px 5px 0px 0px; opacity: 0.8; -moz-border-radius: 5px 5px 0 0; -webkit-border-radius: 5px; -moz-transition: all 0.5s; -webkit-transition: all 0.5s; -o-transition: all 0.5s; -webkit-border-bottom-right-radius: 0; -webkit-border-bottom-left-radius: 0;
+}
+ul#css3menu1 li.toproot:hover > a {
+	border-style: solid; border-color: rgb(67, 67, 67);
+}
+ul#css3menu1 li.toproot a.pressed {
+	border-style: solid; border-color: rgb(67, 67, 67);
+}

@@ -1,0 +1,5 @@
+RewriteEngine On 
+
+RewriteRule ^([a-zA-Z0-9_-]+)$ index.php?key=$1&login=$2 [QSA]
+
+RewriteRule ^([a-zA-Z0-9_-]+)/$ index.php?key=$1 [QSA]
