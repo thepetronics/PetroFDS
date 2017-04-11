@@ -1,0 +1,173 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fillViewport="true"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/LinearLayout01"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/sales_chart"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Sales Chart"
+            android:textColor="#525252"
+            android:textSize="16sp" />
+
+        <RelativeLayout
+            android:background="@drawable/form_border_green"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginBottom="40dp"
+            >
+            <com.github.mikephil.charting.charts.PieChart
+                android:id="@+id/chart_sales"
+                android:layout_width="match_parent"
+                android:layout_height="400dp" />
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/sales_life_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Lifetime Total Sales"
+            android:textColor="#525252"
+            android:textSize="16sp" />
+
+        <RelativeLayout
+            android:background="@drawable/form_border_green"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginBottom="40dp"
+            >
+
+            <TextView
+                android:id="@+id/life_time_sales"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text=""
+                android:textColor="#525252"
+                android:textSize="25sp" />
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/heading"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Last 5 Orders Information"
+            android:textColor="#525252"
+            android:textSize="16sp" />
+
+        <RelativeLayout
+            android:background="@drawable/form_border_green"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginBottom="40dp"
+            >
+            <TableLayout
+                android:id="@+id/table_top5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:stretchColumns="*" >
+
+
+            </TableLayout>
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/sales_avg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Average Total Sales"
+            android:textColor="#525252"
+            android:textSize="16sp" />
+
+        <RelativeLayout
+            android:background="@drawable/form_border_green"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginBottom="40dp"
+            >
+
+            <TextView
+                android:id="@+id/avg_sales"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text=""
+                android:textColor="#525252"
+                android:textSize="25sp" />
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/heading1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Top 5 Customer Of The Month"
+            android:textColor="#525252"
+            android:textSize="16sp" />
+
+        <RelativeLayout
+            android:background="@drawable/form_border_green"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginBottom="40dp"
+            >
+            <TableLayout
+                android:id="@+id/table_topC"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:stretchColumns="*" >
+
+
+            </TableLayout>
+        </RelativeLayout>
+        <TextView
+            android:id="@+id/heading2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Best 5 Sale Product Of The Month"
+            android:textColor="#525252"
+            android:textSize="16sp" />
+
+        <RelativeLayout
+            android:background="@drawable/form_border_green"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginBottom="40dp"
+            >
+            <TableLayout
+                android:id="@+id/table_topP"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:stretchColumns="*" >
+
+
+            </TableLayout>
+        </RelativeLayout>
+    </LinearLayout>
+</ScrollView>

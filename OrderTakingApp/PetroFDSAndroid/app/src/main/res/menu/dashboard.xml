@@ -1,0 +1,8 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" tools:context="com.thepetronics.petro.fds.Dashboard">
+    <item android:id="@+id/action_sync" android:title="@string/sync" android:icon="@drawable/ic_autorenew_white_24dp"
+        app:showAsAction="withText|ifRoom" />
+    <item android:id="@+id/action_logout" android:title="@string/action_sign_out" android:icon="@drawable/ic_exit_to_app"
+        app:showAsAction="withText|ifRoom" />
+</menu>

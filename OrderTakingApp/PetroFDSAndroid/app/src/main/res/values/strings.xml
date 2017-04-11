@@ -1,0 +1,83 @@
+<resources>
+    <string name="app_name">PetroFDS</string>
+    <string name="welcome_login">Welcome to PetroFDS App</string>
+    <string name="prompt_username">Username</string>
+    <string name="prompt_password">Password</string>
+    <string name="prompt_url">URL to Access API</string>
+    <string name="guide_url">Note: API Format should be like this:http://thepetronics.com/fds/demoapp/api if you are using default FDS web structure</string>
+    <string name="action_sign_in">Login</string>
+    <string name="action_sign_out">Logout</string>
+    <string name="account_Type">Logout</string>
+    <string name="hello_world">Hello World!</string>
+    <string name="action_settings">Settings</string>
+    <string name="invalid_email">This email address is invalid</string>
+    <string name="invalid_password">Password is too short</string>
+    <string name="error_username">username cannot be empty</string>
+    <string name="error_password">Password cannot be empty</string>
+    <string name="error_api_url">API URL cannot be empty</string>
+    <string name="invalid_credentials">Invalid Credentials</string>
+    <string name="incorrect_password">Password is incorrect</string>
+    <string name="field_required">This field is required</string>
+    <string name="copy_rights">© Copyright 2016-%1$s. All Rights Reserved.
+ThePetronics(PetroFDS). Application Version 1.0
+</string>
+    <string name="detail">Developed By:ThePetronics.
+</string>
+    <string name="title_item_list">Items</string>
+    <string name="title_item_detail">Item Detail</string>
+    <string name="title_activity_dashboard">Dashboard</string>
+
+    <string name="title_section1">Admin Dashboard</string>
+    <string name="title_section2">View Orders</string>
+    <string name="title_section3">About</string>
+    <string name="title_section4">Logout</string>
+    <string name="Quantity">Quantity</string>
+    <string name="Total">Total</string>
+    <string name="Product_id">Product#</string>
+    <string name="sync">Sync</string>
+    <string name="dummy_section_text">Section %1d is just a dummy section.</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_example">Example action</string>
+    <string name="title_activity_dash">Dash</string>
+    <string name="title_activity_tab">Tab</string>
+    <string name="title_activity_vieworders">View Orders</string>
+    <string name="title_activity_tab1">Tab1</string>
+    <string name="title_activity_start_screen">start_screen</string>
+    <string name="title_activity_invoice">Invoice</string>
+    <string name="title_activity_accept_decline">Accept/Decline Orders</string>
+    <string name="title_activity_admin_dash">Admin Dashboard</string>
+    <string name="msg_getpermission">obtaining USB device access permissions success</string>
+    <string name="msg_conn_state">USB device can not access, please re-connect</string>
+    <string name="txt_content">&quot;&quot;</string>
+    <string name="strLang">en</string>
+    <string name="accept_prompt">Choose a Delivery Time</string>
+    <string name="content_authority">com.mis.gov.personasystems</string>
+    <string-array name="accept_arrays">
+        <item>5</item>
+        <item>10</item>
+        <item>15</item>
+        <item>20</item>
+        <item>25</item>
+        <item>30</item>
+        <item>35</item>
+        <item>40</item>
+        <item>45</item>
+        <item>50</item>
+        <item>55</item>
+        <item>60</item>
+        <item>65</item>
+        <item>70</item>
+        <item>75</item>
+        <item>80</item>
+        <item>85</item>
+        <item>90</item>
+        <item>95</item>
+        <item>100</item>
+        <item>105</item>
+        <item>110</item>
+        <item>115</item>
+        <item>120</item>
+    </string-array>
+</resources>

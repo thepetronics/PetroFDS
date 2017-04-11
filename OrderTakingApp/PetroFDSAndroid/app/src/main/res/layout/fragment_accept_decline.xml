@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fillViewport="true"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/LinearLayout01"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text=""
+            android:textColor="@color/Black"
+            android:id="@+id/name"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:gravity="center_vertical"
+            style="@android:style/Widget.ActionBar.TabText"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text=""
+            android:textColor="@color/Black"
+            android:id="@+id/add_1"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:gravity="center_vertical"
+            style="@android:style/Widget.ActionBar.TabText"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text=""
+            android:textColor="@color/Black"
+            android:id="@+id/add_2"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:gravity="center_vertical"
+            style="@android:style/Widget.ActionBar.TabText"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text=""
+            android:textColor="@color/Black"
+            android:id="@+id/city"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:gravity="center_vertical"
+            style="@android:style/Widget.ActionBar.TabText"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text=""
+            android:textColor="@color/Black"
+            android:id="@+id/postcode"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:gravity="center_vertical"
+            style="@android:style/Widget.ActionBar.TabText"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text=""
+            android:textColor="@color/Black"
+            android:id="@+id/status_order"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:gravity="center_vertical"
+            style="@android:style/Widget.ActionBar.TabText"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <android.support.v7.widget.CardView
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/accept"
+            card_view:cardBackgroundColor="@color/ColorPrimary"
+            card_view:cardCornerRadius="2dp"
+            android:layout_margin="6dp"
+            card_view:cardElevation="6dp">
+
+            <TextView android:id="@+id/btn_accept"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="8.5dp"
+                android:paddingBottom="8.5dp"
+                android:paddingLeft="12dp"
+                android:paddingRight="12dp"
+                android:gravity="center"
+                android:textColor="#FFF"
+                android:layout_centerInParent="true"
+                android:background="@color/ColorPrimary"
+                android:text="ACCEPT" />
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/decline"
+            card_view:cardBackgroundColor="@color/ColorPrimary"
+            card_view:cardCornerRadius="2dp"
+            android:layout_margin="6dp"
+            card_view:cardElevation="6dp">
+
+            <TextView android:id="@+id/btn_decline"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="8.5dp"
+                android:paddingBottom="8.5dp"
+                android:paddingLeft="12dp"
+                android:paddingRight="12dp"
+                android:gravity="center"
+                android:textColor="#FFF"
+                android:layout_centerInParent="true"
+                android:background="@color/ColorPrimary"
+                android:text="DECLINE" />
+
+        </android.support.v7.widget.CardView>
+
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "111899419911",
+    "firebase_url": "https://petrofds-77af1.firebaseio.com",
+    "project_id": "petrofds-77af1",
+    "storage_bucket": "petrofds-77af1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:111899419911:android:9e513af22078a04c",
+        "android_client_info": {
+          "package_name": "com.thepetronics.petro.fds"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "111899419911-fqm958o49arqusdgd3fg0gep74sg96l9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD0s_MSx-wXUrKgAiZifxxnutf2QdaJFYw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

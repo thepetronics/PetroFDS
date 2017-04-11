@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="White">#FFF</color>
+    <color name="Black">#000</color>
+    <color name="ColorPrimary">#34B43E</color>
+    <color name="ColorLight">#89c543</color>
+    <color name="ColorActionbar1">#89c644</color>
+    <color name="ColorActionbar">#8BC34A</color>
+    <color name="ColorPrimaryDark1">#00695C</color>
+    <color name="ColorPrimaryDark">#4CAF50</color>
+    <color name="ScrollColor1">#d8d8d8</color>
+    <color name="ScrollColor">#DCEDC8</color>
+    <color name="tabsScrollColor">#00695C</color>
+</resources>

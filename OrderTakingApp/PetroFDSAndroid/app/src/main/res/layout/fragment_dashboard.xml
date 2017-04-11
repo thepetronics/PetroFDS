@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.thepetronics.petro.fds.DashboardLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_weight="1"
+    android:background="#FFF" >
+
+    <!--  View Orders Button -->
+    <Button
+        android:id="@+id/view_orders"
+        style="@style/DashboardButton"
+        android:drawableTop="@mipmap/listview"
+        android:text="View Orders" />
+
+    <!--  Admin Dashboard Button -->
+    <Button
+        android:id="@+id/admin_dash"
+        style="@style/DashboardButton"
+        android:drawableTop="@mipmap/dash_reports_icon"
+        android:text="Admin Dashboard" />
+
+</com.thepetronics.petro.fds.DashboardLayout>

@@ -1,0 +1,20 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:background="@color/ColorActionbar"
+    tools:context="com.thepetronics.petro.fds.Start_screen">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="105dp"
+        android:layout_gravity="center_horizontal"
+        android:src="@mipmap/appicon"
+        android:id="@+id/logo"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+</RelativeLayout>

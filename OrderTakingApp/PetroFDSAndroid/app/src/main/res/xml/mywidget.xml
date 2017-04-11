@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<appwidget-provider
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:minWidth="146dp"
+    android:previewImage="@mipmap/appicon"
+    android:resizeMode="vertical|horizontal"
+    android:updatePeriodMillis="1800000"
+    android:widgetCategory="home_screen|keyguard"
+    android:minHeight="146dp"
+    android:minResizeHeight="100dip"
+    android:minResizeWidth="100dip"
+    android:initialLayout="@layout/activity_widget">
+</appwidget-provider>

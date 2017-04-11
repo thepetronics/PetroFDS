@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.thepetronics.petro.fds" >
+
+    <uses-permission android:name="android.permission.AUTHENTICATE_ACCOUNTS" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.MANAGE_ACCOUNTS"/>
+    <uses-permission android:name="android.permission.MANAGE_DOCUMENTS" />
+    <uses-permission android:name="android.permission.READ_SYNC_SETTINGS" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.WRITE_SYNC_SETTINGS" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <uses-feature android:name="android.hardware.usb.host"></uses-feature>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/appicon"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <receiver android:name="com.thepetronics.petro.fds.WidgetActivity">
+
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE"></action>
+            </intent-filter>
+
+            <meta-data android:name="android.appwidget.provider"
+                android:resource="@xml/mywidget"></meta-data>
+
+        </receiver>
+
+        <activity
+            android:name="com.thepetronics.petro.fds.Login"
+            android:configChanges="orientation|screenSize"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme_no" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <service
+            android:name="com.thepetronics.petro.fds.MyFirebaseMessagingService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT"/>
+            </intent-filter>
+        </service>
+
+        <service
+            android:name="com.thepetronics.petro.fds.MyFirebaseInstanceIDService">
+            <intent-filter>
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT"/>
+            </intent-filter>
+        </service>
+
+        <service
+            android:name="com.thepetronics.petro.fds.AccountAuthenticatorService"
+            android:exported="true"
+            android:process=":auth" >
+            <intent-filter>
+                <action android:name="android.accounts.AccountAuthenticator" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.accounts.AccountAuthenticator"
+                android:resource="@xml/authenticator" />
+        </service>
+
+        <activity
+            android:name="com.thepetronics.petro.fds.Dashboard"
+            android:configChanges="orientation|screenSize"
+            android:label="@string/title_activity_dashboard" >
+        </activity>
+
+        <service
+            android:name="com.thepetronics.petro.fds.DownloadService"
+            android:exported="false" />
+
+        <activity
+            android:name="com.thepetronics.petro.fds.Admin_dash"
+            android:configChanges="orientation|screenSize"
+            android:label="@string/title_activity_admin_dash" >
+        </activity>
+        <activity
+            android:name="com.thepetronics.petro.fds.ViewOrders"
+            android:label="@string/title_activity_vieworders"
+            android:theme="@style/AppTheme_no" >
+            <intent-filter>
+                <action android:name="android.intent.action.SEARCH" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.app.searchable"
+                android:resource="@xml/searchable" />
+        </activity>
+        <activity
+            android:name="com.thepetronics.petro.fds.Start_screen"
+            android:label="@string/title_activity_start_screen"
+            android:theme="@style/AppTheme_no" >
+        </activity>
+        <activity
+            android:name="com.thepetronics.petro.fds.Invoice"
+            android:label="@string/title_activity_invoice" >
+        </activity>
+        <activity
+            android:name="com.thepetronics.petro.fds.AcceptDecline"
+            android:label="@string/title_activity_accept_decline" >
+        </activity>
+
+        <service
+            android:name="com.thepetronics.petro.fds.WidgetService"
+            android:permission="android.permission.BIND_REMOTEVIEWS" />
+    </application>
+
+</manifest>
